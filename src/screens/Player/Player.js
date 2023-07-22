@@ -34,14 +34,6 @@ const Player = () => {
 
   useEffect(() => {
     setCurrentTrack(tracks[currentIndex]?.track);
-    if ( currentTrack?.preview_url == null){
-      if (currentIndex < tracks.length - 1) {
-        alert("sample not avaliable - changing song")
-        setCurrentIndex(currentIndex + 1);
-      } else {
-        setCurrentIndex(0);
-      }
-    }
   },[ currentTrack,currentIndex,tracks])
   
 
