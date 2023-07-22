@@ -1,0 +1,8 @@
+.main-body{
+    background-image: url("../../assets/Images/Lost.jpg");
+    height: 100vh;
+    display: flex; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(153, 245, 247) ;
+}

@@ -1,0 +1,44 @@
+.album-images img{
+    width: 76%;
+    border-radius: 16px;
+}
+.album-images{
+    justify-content: center;
+    display: flex;
+    padding: 50px 0px 0px;
+
+}
+.album-info{
+    color: rgb(153, 245, 247) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: -79px 0px 0px;
+    gap: 24px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(57, 102, 129, 0.562);
+    width: calc(72% - 6px );
+    border-radius: 0px 0px 16px 16px;
+    padding: 0px 12px;
+}
+.album-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.album-title span{
+    color: black;
+    font-size: 18px;
+}
+.album-songs{
+    margin-top: -38px;
+    font-size: smaller;
+}
+.album-container{
+    border: 12px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

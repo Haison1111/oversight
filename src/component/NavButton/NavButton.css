@@ -1,0 +1,47 @@
+.button-container{
+    z-index: 1;
+    color: rgb(153, 245, 247);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.35;
+    border-radius: 16px;
+    padding: 0px 10px;
+    transition: all 0.5s ease;
+    -webkit-background-clip: text;
+}
+.icon-waraper p{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 65%;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 12px;
+}
+.icon{
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+.icon-waraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 0px;
+}
+.button-container:hover{
+    opacity: 100%;
+    
+}
+.button-container.active{
+    opacity: 100%;
+    background-color:transparent;
+    transform: scale(1.2);
+    
+}

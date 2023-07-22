@@ -1,0 +1,10 @@
+.container-screen{
+    background: transparent;
+    width: calc(100vw - 92px);
+    height: 100%;
+    /* backdrop-filter: blur(4px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

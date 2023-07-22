@@ -1,0 +1,48 @@
+.track-image{
+  width: 15%;
+}
+.queue-list{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;;
+  overflow-y: scroll;
+  height: 43%;
+
+}
+.show-info-queue{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+  color: rgb(153, 245, 247);
+}
+.queue-container{
+  padding: 0px 36px;
+  height: 100%;
+}
+.queue-container h4{
+  font-size: 22px;
+}
+.queue-list::-webkit-scrollbar{
+  width: 12px;
+}
+.images-info{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.show-info-queue:hover{
+  transform: scale(0.95);
+  opacity: 1;
+}
+.queue-list-false{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+  color: rgb(198, 113, 219);
+}

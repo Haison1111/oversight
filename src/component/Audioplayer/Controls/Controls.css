@@ -1,0 +1,22 @@
+.controls-wrapper{
+    
+        display: flex;
+        gap: 43px;
+        justify-content: space-between;
+        transform: scale(140%);
+        margin-top: 46px;
+        align-items: center;
+        transition: all 0.3s ease;
+    
+    
+}
+.play-pause-btn{
+    transition: all 0.3s ease;
+}
+.play-pause-btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.action-btn{
+    cursor: pointer;
+}
