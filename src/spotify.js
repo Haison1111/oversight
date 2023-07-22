@@ -2,7 +2,7 @@ import axios from "axios"
 
 const authEndpoint = "http://accounts.spotify.com/en/authorize?";
 const clientID = "e6710c2cbeb346349c46dfd1fb6506a0";
-const redirectUrl = "http://oversight-hs.netlify.app/";
+const redirectUrl = "http://oversight-hs.netlify.app";
 const scopes = ["user-library-read", "playlist-read-private"];
 
 
