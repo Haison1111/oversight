@@ -7,7 +7,7 @@
   gap: 14px;;
   overflow-y: scroll;
   height: 43%;
-
+  
 }
 .show-info-queue{
   display: flex;
@@ -16,7 +16,7 @@
   cursor: pointer;
   transition: all 0.3s ease;
   opacity: 0.8;
-  color: rgb(153, 245, 247);
+  /* color: rgb(153, 245, 247); */
 }
 .queue-container{
   padding: 0px 36px;
@@ -37,12 +37,22 @@
   transform: scale(0.95);
   opacity: 1;
 }
-.queue-list-false{
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  opacity: 0.8;
-  color: rgb(198, 113, 219);
+.track-name{
+  font-weight: 600;
+}
+.track-name-playing{
+  font-weight: 600;
+  display: inline-block;
+  animation: running 8s linear infinite;
+  /* padding-left: 100%;
+  white-space: nowrap; */
+}
+
+@keyframes running {
+  0% {
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
 }

@@ -32,7 +32,7 @@ const Progress = ({
   return (
     <div className='progress-circle'> 
         <svg width={size} height={size} className='circle'>
-        <g>
+        <g className='progress-ring'>
           <Circle strokeWidth={"0.4rem"} color="#2e6a7ebd" size={size} />
           <Circle
             strokeWidth={"0.6rem"}

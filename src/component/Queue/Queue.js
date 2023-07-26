@@ -17,7 +17,7 @@ const Queue = ({ lists, setCurrentIndex }) => {
                 className="track-image"
                 src={list?.track?.album?.images[0].url}
               />
-              <div className="track-name"> {list?.track?.name} </div>
+              <div className="track-name-playing"> {list?.track?.name} </div>
             </div>
             <p>0:30</p>
           </div>

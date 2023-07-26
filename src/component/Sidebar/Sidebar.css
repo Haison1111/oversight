@@ -1,7 +1,7 @@
 .sidebar-container{
     width: 64px;
     background-color: transparent;
-    height: 100vh;
+    height: 97vh;
     position: relative;
     box-shadow: 1px 0px 10px #2b4158;
     display: flex;
@@ -9,8 +9,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 14px;
-    border-radius: 0 12px 12px 0;
-    backdrop-filter: blur(24px);
+    /* border-radius: 0 12px 12px 0; */
+    backdrop-filter: blur(12px);
 }
 /* .blur-background{
     position: absolute;

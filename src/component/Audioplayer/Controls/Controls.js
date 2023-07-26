@@ -1,8 +1,8 @@
 import React from "react";
-import "./Controls.css";
 import { IconContext } from "react-icons";
 import { FaPause } from "react-icons/fa";
-import { IoPlaySkipBack, IoPlaySkipForward, IoPlay } from "react-icons/io5";
+import { IoPlay, IoPlaySkipBack, IoPlaySkipForward } from "react-icons/io5";
+import "./Controls.css";
 
 const Controls = ({
   handleNext,

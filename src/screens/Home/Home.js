@@ -9,9 +9,11 @@ import "./Home.css";
 import Sidebar from "../../component/Sidebar/Sidebar";
 import { setClientToken } from "../../spotify";
 import Login from "../Login/Login";
+import SwitchMode from "../../component/SwitchMode/SwitchMode";
 
 const Home = () => {
   const [token, setToken] = useState("");
+  const [darkMode,setDarkMode] = useState(false)
 
   useEffect(() => {
     const token = window.localStorage.getItem("token");
@@ -27,11 +29,16 @@ const Home = () => {
       setClientToken(token);
     }
   }, []);
+  
+  const handleDarkMode = () => {
+    setDarkMode(preState => !preState)
+  }
 
   return (
     !token ? 
        <Login/>   :
-     <div className="main-body">
+     <div className={darkMode ? "main-body-dark" : "main-body"}>
+      <SwitchMode darkMode={handleDarkMode}/>
       <Sidebar/>
       <Routes>
         <Route path="/" element={<Library />} />

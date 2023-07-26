@@ -5,19 +5,19 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    backdrop-filter: blur(30px);
-    background-color: #684b9c;
-    background-image: linear-gradient(
+    backdrop-filter: blur(3px);
+    background-color: #8babd341;
+    /* background-image: linear-gradient(
       119deg,
       #684b9c 0%,
       #1a6eae 52%,
       #293543 100%
-    );
+    ); */
     position: relative;
     box-shadow: 1px 1px 4px black;
     padding: 12px;
     border-radius: 16px;
-    color: rgb(153, 245, 247);
+    /* color: rgb(153, 245, 247); */
     transition: all 0.5s ease;
   }
   .playlist-card:hover {
@@ -52,7 +52,7 @@
     backdrop-filter: blur(14px);
     border-radius: 16px;
     transition: all 0.5 ease;
-    color: #000000;
+    /* color: #000000; */
   }
   
   .playlist-card:hover .playlist-hover {

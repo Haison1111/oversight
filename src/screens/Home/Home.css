@@ -1,8 +1,19 @@
 .main-body{
-    background-image: url("../../assets/Images/Lost.jpg");
+    background-color: #eaeaf885;
+     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #eaeaf8 33px ), repeating-linear-gradient( #02000331, #02000352 );;
     height: 100vh;
     display: flex; 
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(153, 245, 247) ;
+    color: rgb(16, 17, 17) ;
+    transition: all 0.3s ease;
+}
+.main-body-dark{
+    background-color: #4b4b4e85;
+     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #101011 33px ), repeating-linear-gradient( #02000331, #02000352 );;
+    height: 100vh;
+    display: flex; 
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    color: rgb(199, 223, 223) ;
 }

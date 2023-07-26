@@ -27,3 +27,13 @@
   a {
     text-decoration: none;
   }
+  .login-account{
+    color: white;
+  }
+  .login-account p span{
+    font-size: large;
+    font-weight: 700;
+  }
+  .login-account h3 span{
+    font-size: larger;
+  }

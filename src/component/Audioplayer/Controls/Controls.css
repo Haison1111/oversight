@@ -10,9 +10,9 @@
     
     
 }
-.play-pause-btn{
+/* .play-pause-btn{
     transition: all 0.3s ease;
-}
+} */
 .play-pause-btn:hover{
     transform: scale(1.1);
     cursor: pointer;

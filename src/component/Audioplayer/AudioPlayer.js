@@ -12,7 +12,7 @@ const AudioPlayer = ({
 }) => {
   const [isPlaying, setIsPlaying] = useState(true);
   const [trackProgress, setTrackProgress] = useState(0);
-
+  const [isPlayingRn,setIsPlayingRn] = useState(true);
   var audioSrc = total[currentIndex]?.track.preview_url;
 
   const audioRef = useRef(new Audio(total[0]?.track.preview_url));
@@ -78,14 +78,17 @@ const AudioPlayer = ({
       audioRef.current.play();
       setIsPlaying(true);
       startTimer();
+      setIsPlayingRn(true)
     } else if(!isReady.current) {
       isReady.current = true;
       audioRef.current.pause()
+      setIsPlayingRn(false)
     }
   }, [currentIndex]);
 
   useEffect(() => {
     return () => {
+      setIsPlayingRn(false)
       audioRef.current.pause();
       clearInterval(intervalRef.current);
     };
@@ -114,7 +117,7 @@ const AudioPlayer = ({
         isPlaying={isPlaying}
         image={currentTrack?.album?.images[0]?.url}
         size={300}
-        color="rgb(153, 245, 247)"
+        color="#00ADB5"
       />
       <div className="player-info">
         <div className="player-songs-name">{currentTrack?.name} </div>

@@ -1,5 +1,7 @@
 .circle{
     transform: scale(150% );
-    rotate: 93deg;
     
 }
+/* .progress-ring{
+    transform: rotate(-3deg);
+} */

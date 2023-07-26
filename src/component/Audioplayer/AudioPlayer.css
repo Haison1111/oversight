@@ -14,11 +14,14 @@ image.active {
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
+    
   }
+  
 
   .progress-circle {
     justify-content: center;
     align-items: center;
+    rotate: 93deg;
   }
   
   @keyframes rotation {
@@ -37,13 +40,13 @@ image.active {
   }
   .player-songs-name{
     font-size: 36px;
-    color: rgb(153, 245, 247) ;
+    /* color: rgb(153, 245, 247) ; */
     font-weight: 700;
   }
   .player-artist{
     font-size: 24px;
     font-weight: 600;
-   color:  rgb(90, 145, 155);
+   /* color:  rgb(90, 145, 155); */
   }
   .control-center{
     display: flex;

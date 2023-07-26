@@ -1,6 +1,6 @@
 .button-container{
     z-index: 1;
-    color: rgb(153, 245, 247);
+    color: #00ADB5;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     border-radius: 16px;
     padding: 0px 10px;
     transition: all 0.5s ease;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
 }
 .icon-waraper p{
     font-family: 'Quicksand',sans-serif;
